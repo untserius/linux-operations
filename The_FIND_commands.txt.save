@@ -1,0 +1,18 @@
+Examples
+
+To find files with .txt extension
+
+find . -type f -name "*.txt"
+
+To find 
+To find files with name containing "file"
+
+find . -type f -name "file*"
+
+To find files based on permissions 
+
+find . -type f -perm 0664
+
+To find files based on size
+
+find . -size +0b

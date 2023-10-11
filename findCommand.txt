@@ -1,0 +1,5 @@
+How to search a file ?
+
+For example, to search .txt file =
+
+file . -type f -name "*.txt"

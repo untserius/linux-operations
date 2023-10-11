@@ -1,0 +1,9 @@
+just trying out file permissions
+
+now I can write
+
+4 - read only
+6 - read and write
+7 - directory permissions
+
+testing

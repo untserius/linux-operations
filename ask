@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+import subprocess
+
+print("Hello User!")
+print("What do you want to know?")
+print("")
+print("Press 1 - To know today's date and time.")
+print("Press 2 - To see calender.")
+print("Press 3 - To list all running process.")
+print("")
+choice = int(input("Enter: "))
+
+if choice == 1:
+    out=subprocess.getoutput("date")
+elif choice == 2:
+    out=subprocess.getoutput("cal")
+elif choice == 3:
+    out=subprocess.getoutput("ps")
+else:
+    out="Invaild Choice!!"
+
+print(out)
